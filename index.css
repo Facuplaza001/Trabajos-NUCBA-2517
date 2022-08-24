@@ -36,15 +36,18 @@ body{
     margin-top: 8px;
     display: flex;
 }
+.nav{
+    display: flex;
+}
 a{
     color: black;
     text-decoration: none;
 }
 
 nav a{
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 1.2em;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
 
@@ -108,7 +111,25 @@ nav a:hover{
 
 .cuadrado3 p{
     width: 50%;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     text-align: center;
+}
+.titulo1{
+    width: 65%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+.titulo1 h1{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+.titulo1 p{
+    font-weight: 300;
 }
